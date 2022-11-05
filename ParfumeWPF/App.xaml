@@ -1,0 +1,25 @@
+﻿<Application x:Class="ParfumeWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ParfumeWPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="20,0"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="Candara"></Setter>
+            <Setter Property="Background" Value="#A5E887"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="Candara"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="Candara"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Candara"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
